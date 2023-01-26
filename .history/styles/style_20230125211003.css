@@ -1,0 +1,19 @@
+:root{
+    --very-dark-blue:background-color: hsl(216, 12%, 8%);
+    --dark-blue:hsl(213, 19%, 18%);
+    --medium-grey
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(216, 12%, 8%);
+}
+
+#avaliation-form{
+    background-color: hsl(213, 19%, 18%);
+}

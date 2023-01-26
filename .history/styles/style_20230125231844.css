@@ -1,0 +1,36 @@
+:root{
+    --very-dark-blue:hsl(216, 12%, 8%);
+    --dark-blue:hsl(213, 19%, 18%);
+    --medium-grey: hsl(216, 12%, 54%);
+    --light-grey:hsl(217, 12%, 63%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:var(--very-dark-blue);
+}
+
+#avaliation-form{
+    background-color:var(--dark-blue);
+    width: 25vw;
+    height: 40vh;
+    padding: 15px;
+    margin: 30vh auto;
+    co
+}
+
+#avaliation-form > h1{
+    padding: 10px;
+}
+
+span{
+    background-color: rgba(255, 255, 255, 0.074);
+    padding: 8px;
+    border-radius: 50%;
+    text-align: center;
+}
