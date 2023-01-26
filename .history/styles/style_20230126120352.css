@@ -98,10 +98,10 @@ span > img{
     }
 }
 
-@media screen and (min-width:601px) and (max-width:800px){
+@media screen and (min-width:601px){
     #avaliation-form{
         margin-top: 80px;
-        width: 30vw;
+        width: 0vw;
         height: 60vh;
         font-size: 12px;
     }
