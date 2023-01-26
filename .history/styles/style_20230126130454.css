@@ -98,3 +98,16 @@ span > img{
     }
 }
 
+@media screen and (max-width:100px){
+    #avaliation-form{
+        margin-top: 80px;
+        width: 30vw;
+        height: 60vh;
+        font-size: 12px;
+    }
+
+    #avaliation-btns input{
+        width: 10vw;
+        
+    }
+}
