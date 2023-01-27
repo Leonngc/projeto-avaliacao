@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <script src="js/index.js" defer></script>
   
   <title>Frontend Mentor | Interactive rating component</title>
 
@@ -13,7 +14,7 @@
 <body>
 
   <!-- Rating state start -->
-<form id="avaliation-form">
+<form class="avaliation-form">
 
   <span id="icon-star">
     <img src="images/icon-star.svg" alt="">
@@ -41,21 +42,26 @@
 
   <!-- Thank you state start -->
 
-  <section id="result-avaliation">
-    <p id="avaliacao-user">You selected <!-- Add rating here --> out of 5</p>
-    <h1>Thank you!</h1>
-    <p>
-      We appreciate you taking the time to give a rating. If you ever need more support,
-      don’t hesitate to get in touch!
-    </p>
+  <section id="result-avaliation" class="avaliation-form">
+    <div id="thank-image">
+      <img src="images/illustration-thank-you.svg" alt="">
+    </div>
+
+  
+      <p id="avaliation-user">You selected <!--ratting result --> out of 5</p>
+      <h1>Thank you!</h1>
+      <p id="thanks-mensage">
+        We appreciate you taking the time to give a rating. If you ever need more support,
+        don’t hesitate to get in touch!
+      </p>
   </section>
 
   <!-- Thank you state end -->
 
   
-  <div class="attribution">
+  <footer class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Nicolas Leon</a>.
-  </div>
+  </footer>
 </body>
 </html>
