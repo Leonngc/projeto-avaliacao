@@ -134,24 +134,7 @@ footer > a {
   }
 
   #submit{
-    width: 330px;
-   
-    display: block;
-    margin: auto; 
-    margin-top: 50px;
+    width: 130px;
+    
   }
-}
-
-@media screen and (max-width: 480px) {
-    #submit{
-      width: 160px;
-    }
-
-    #avaliation-btns{
-      width: 5vw;
-    }
-
-    .avaliation-form{
-      width: 90vw;
-    }
 }

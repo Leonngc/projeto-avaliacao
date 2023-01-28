@@ -141,17 +141,3 @@ footer > a {
     margin-top: 50px;
   }
 }
-
-@media screen and (max-width: 480px) {
-    #submit{
-      width: 160px;
-    }
-
-    #avaliation-btns{
-      width: 5vw;
-    }
-
-    .avaliation-form{
-      width: 90vw;
-    }
-}

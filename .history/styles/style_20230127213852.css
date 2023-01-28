@@ -142,16 +142,8 @@ footer > a {
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 300px) {
     #submit{
-      width: 160px;
-    }
-
-    #avaliation-btns{
-      width: 5vw;
-    }
-
-    .avaliation-form{
-      width: 90vw;
+      width: 120px;
     }
 }

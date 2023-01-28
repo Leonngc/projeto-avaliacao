@@ -119,7 +119,7 @@ footer > a {
   color: hsl(25, 97%, 53%);
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (min) (max-width: 600px) {
   .avaliation-form {
     margin-top: 80px;
     width: 80vw;
@@ -140,18 +140,4 @@ footer > a {
     margin: auto; 
     margin-top: 50px;
   }
-}
-
-@media screen and (max-width: 480px) {
-    #submit{
-      width: 160px;
-    }
-
-    #avaliation-btns{
-      width: 5vw;
-    }
-
-    .avaliation-form{
-      width: 90vw;
-    }
 }
