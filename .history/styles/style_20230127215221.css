@@ -149,8 +149,7 @@ footer > a {
 
     #avaliation-btns{
       margin: auto;
-      display: flex;
-      flex-direction: row;
+      display: ;
     }
 
     #avaliation-btns input{
