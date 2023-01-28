@@ -147,12 +147,11 @@ footer > a {
       width: 160px;
     }
 
-    #avaliation-btns{
-      margin: auto;
-    }
-
     #avaliation-btns input{
       width: 10vw;
+      display: inline-block;
+      text-align: center;
+      margin: auto;
       margin-top: 12px;
     }
 

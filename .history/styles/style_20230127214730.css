@@ -148,12 +148,9 @@ footer > a {
     }
 
     #avaliation-btns{
-      margin: auto;
-    }
-
-    #avaliation-btns input{
-      width: 10vw;
-      margin-top: 12px;
+      width: 2vw;
+      margin: 2px;
+      padding: ;
     }
 
     .avaliation-form{
