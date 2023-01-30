@@ -1,0 +1,8 @@
+const rateBtn = document.querySelector('.rate-btn');
+const sent = document.querySelector('#submit-btn');
+
+sent.addEventListener('click', ()=>{
+    window.alert("test")
+})
+
+rateBtn.addEventListener = document.querySelector

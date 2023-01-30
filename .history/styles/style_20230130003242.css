@@ -1,0 +1,131 @@
+:root {
+  --very-dark-blue: hsl(216, 12%, 8%);
+  --dark-blue: hsl(213, 19%, 18%);
+  --medium-grey: hsl(216, 12%, 54%);
+  --light-grey: hsl(217, 12%, 63%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--very-dark-blue);
+}
+
+#card {
+  background-color: var(--dark-blue);
+  width: 500px;
+  height: 400px;
+  margin: auto;
+  margin-top: 200px;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+#icon {
+  background-color: rgba(124, 122, 122, 0.162);
+  padding: 10px;
+  border-radius: 50%;
+}
+
+#mensage > h1 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: white;
+  padding: 12px;
+}
+
+#mensage > p {
+  padding: 8px;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: var(--light-grey);
+}
+
+#container-btns {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+li {
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.rate-btn {
+  margin-right: 30px;
+  padding: 18px;
+  border-radius: 50%;
+  border: none;
+  width: 50px;
+  background-color: rgba(128, 128, 128, 0.216);
+  color: var(--light-grey);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bolder;
+}
+
+.rate-btn:hover {
+  background-color: var(--light-grey);
+  color: white;
+}
+
+#submit-btn {
+  display: block;
+  margin: auto;
+  margin-top: 30px;
+  width: 400px;
+  padding: 15px;
+  border-radius: 30px;
+  border: none;
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+}
+
+#submit-btn:hover{
+  background-color: white;
+  color: hsl(25, 97%, 53%);
+}
+
+#result-avaliation{
+  background-color: var(--dark-blue);
+  width: 500px;
+  height: 400px;
+  margin: auto;
+  padding: 30px;
+  border-radius: 20px;
+  text-align: center;
+}
+#avaliation-user{
+  display: block;
+  background-color: hsl(216, 12%, 8%);
+  width: 200px;
+  padding: 10px;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 16px;
+  color: hsl(25, 97%, 53%);
+}
+
+
+#result-avaliation > h1{
+  margin-top: 40px;
+  margin-bottom: 20px;
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#result-avaliation > p{
+  color: var(--light-grey);
+  font-size: 20px;
+  font
+}

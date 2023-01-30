@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <script src="js/index.js" defer></script>
+
+  <title>Frontend Mentor | Interactive rating component</title>
+
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+
+  <!-- Rating state start -->
+  <div id="card">
+    <img src="images/icon-star.svg" alt="" id="icon">
+    <div id="mensage">
+      <h1>Como Fizemos?</h1>
+      <p>Por favor envie-nos uma avaliação sobre o nosso suporte. Queremos ouvi-lo para melhorar sempre :)</p>
+    </div>
+
+    <ul id="container-btns">
+      <li><button class="rate-btn">1</button></li>
+      <li><button class="rate-btn">2</button></li>
+      <li><button class="rate-btn">3</button></li>
+      <li><button class="rate-btn">4</button></li>
+      <li><button class="rate-btn">5</button></li>
+    </ul>
+    <button id="submit-btn">Enviar</button>
+    </div>
+    
+  <!-- Rating state end -->
+
+  <!-- Thank you state start -->
+
+  <section id="result-avaliation">
+    <div id="thank-image">
+      <img src="images/illustration-thank-you.svg" alt="">
+    </div>
+
+    <span id="avaliation-user">You selected <!--ratting result --> out of 5</span>
+    <h1>Thank you!</h1>
+    <p id="thanks-mensage">
+      We appreciate you taking the time to give a rating. If you ever need more support,
+      don’t hesitate to get in touch!
+    </p>
+  </section>
+
+  <!-- Thank you state end -->
+
+
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Nicolas Leon</a>.
+  </footer>
+</body>
+
+</html>
