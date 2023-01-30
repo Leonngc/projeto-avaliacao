@@ -1,0 +1,165 @@
+:root {
+  --very-dark-blue: hsl(216, 12%, 8%);
+  --dark-blue: hsl(213, 19%, 18%);
+  --medium-grey: hsl(216, 12%, 54%);
+  --light-grey: hsl(217, 12%, 63%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--very-dark-blue);
+  font-family: sans-serif;
+}
+span {
+  background-color: rgba(255, 255, 255, 0.074);
+  padding: 12px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+span > img {
+  margin-top: 20px;
+}
+
+.avaliation-form {
+  max-width: 900px;
+  background-color: var(--dark-blue);
+  width: 25vw;
+  height: 55vh;
+  padding: 25px;
+  margin: 30vh auto;
+  color: white;
+  border-radius: 18px;
+}
+
+.avaliation-form > h1 {
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.avaliation-form > p {
+  color: var(--light-grey);
+  font-size: 15px;
+}
+
+.ratting {
+  background-color: var(--very-dark-blue);
+  color: var(--light-grey);
+  cursor: pointer;
+  display: flex; 
+  align-items: center;
+  justify-content: space-between;
+}
+
+#avaliation-btns input:hover {
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+}
+#avaliation-btns input:active {
+  background-color: var(--light-grey);
+}
+
+#result-avaliation{
+  display: none;
+}
+
+#submit {
+  width: 330px;
+  margin: auto;
+  padding: 8px;
+  border-radius: 20px;
+  border-style: none;
+  color: white;
+  background-color: hsl(25, 97%, 53%);
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#submit:hover {
+  background-color: white;
+  color: hsl(25, 97%, 53%);
+}
+
+/* Ratting Result Styles */
+
+#result-avaliation {
+  text-align: center;
+}
+
+#thank-image {
+  text-align: center;
+}
+
+#avaliation-user {
+  display: block;
+  margin: auto;
+  width: 200px;
+  margin-top: 15px;
+  padding: 6px;
+  border-radius: 16px;
+  color: hsl(25, 97%, 53%);
+  background-color: hsla(214, 14%, 29%, 0.425);
+
+}
+
+#thanks-mensage {
+  color: var(--light-grey);
+}
+
+footer {
+  background-color: var(--dark-blue);
+  padding: 20px;
+  text-align: center;
+  color: var(--light-grey);
+}
+
+footer > a {
+  color: hsl(25, 97%, 53%);
+}
+
+@media screen and (max-width: 600px) {
+  .avaliation-form {
+    margin-top: 80px;
+    width: 80vw;
+    height: 70vh;
+    font-size: 12px;
+  }
+
+
+  #avaliation-btns input {
+    width: 15vw;
+    margin: 5px;
+  }
+
+  #submit{
+    width: 330px;
+   
+    display: block;
+    margin: auto; 
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+    #submit{
+      width: 160px;
+    }
+
+    #avaliation-btns{
+      margin: auto;
+    }
+
+    #avaliation-btns input{
+      width: 12vw;
+      margin-top: 12px;
+    }
+
+    .avaliation-form{
+      width: 80vw;
+    }
+}

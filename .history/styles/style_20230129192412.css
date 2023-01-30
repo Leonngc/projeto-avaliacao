@@ -1,0 +1,35 @@
+:root {
+  --very-dark-blue: hsl(216, 12%, 8%);
+  --dark-blue: hsl(213, 19%, 18%);
+  --medium-grey: hsl(216, 12%, 54%);
+  --light-grey: hsl(217, 12%, 63%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: var(--very-dark-blue);
+}
+
+.ratting{
+  background-color: var(--dark-blue);
+  margin: auto;
+  margin-top: 190px;
+  width: 470px;
+  height: 400px;
+  padding: 40px;
+}
+
+#icon{
+  background-color: rgba(211, 211, 211, 0.218);
+  padding: 10px;
+  border-radius: 50%;
+}
+
+#mensage > h1{
+  
+}

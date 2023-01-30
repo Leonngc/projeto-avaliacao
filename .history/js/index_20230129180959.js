@@ -1,0 +1,3 @@
+function rattingOne(){
+    alert("Avalia")
+}
