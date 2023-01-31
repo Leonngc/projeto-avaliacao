@@ -179,7 +179,6 @@ footer > a{
   }
 
   footer{
-    margin-top: 300px;
     font-size: 16px;
   }
 
@@ -188,7 +187,7 @@ footer > a{
   }
 
   #thanks-mensage{
-    width: 300px;
+    
   }
   
 }

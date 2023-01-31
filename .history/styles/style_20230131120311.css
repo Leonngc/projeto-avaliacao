@@ -179,7 +179,6 @@ footer > a{
   }
 
   footer{
-    margin-top: 300px;
     font-size: 16px;
   }
 
@@ -187,8 +186,8 @@ footer > a{
     width: 90vw;
   }
 
-  #thanks-mensage{
-    width: 300px;
+  #result-avaliation > p{
+    width: 10vw;
   }
   
 }
