@@ -147,7 +147,6 @@ li {
 
 footer{
   width: 100vw;
-  max-width: 100%;
   margin-top: 100px;
   padding: 20px;
   text-align: center;
@@ -172,10 +171,6 @@ footer > a{
     width: 55px;
     height: 55px;
     margin-right: 14px;
-  }
-
-  #submit-btn{
-    width: 65vw;
   }
 
   footer{
