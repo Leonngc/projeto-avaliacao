@@ -162,19 +162,10 @@ footer > a{
 
 @media  screen and (max-width: 600px) {
   #card{
-    width: 450px;
-    margin: 40px auto;
-    
+    width: 400px;
   }
 
-  .rate-btn{
-    width: 55px;
-    height: 55px;
-    margin-right: 14px;
-  }
-
-  footer{
-    font-size: 16px;
+  ul{
     margin: auto;
   }
   

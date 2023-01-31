@@ -12,6 +12,6 @@ sent.addEventListener('click', ()=>{
 
 rateBtn.forEach((rate) =>{
     rate.addEventListener("click", () =>{
-        userRatting.innerHTML = rate.innerHTML
+        userRatting.innerHTML = rate.inner
     })
 });
